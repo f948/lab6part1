@@ -1,0 +1,41 @@
+<html>
+<img id="img" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2015%2F04%2F23%2F22%2F00%2Ftree-736885__480.jpg&imgrefurl=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Focean%2F&tbnid=L8xfQakH9a8tJM&vet=12ahUKEwjU7rOs-Jr0AhUFnnIEHYK9BX8QMygAegUIARDNAQ..i&docid=Ih9znGUKkTWkvM&w=771&h=480&itg=1&q=images&ved=2ahUKEwjU7rOs-Jr0AhUFnnIEHYK9BX8QMygAegUIARDNAQ">
+
+Type the background (hex,rgb) or an image with the file name or url:
+<br>
+<input type="text" id="background">
+<br>
+
+
+<input type="button" onclick="submit()" value="Submit">
+
+<p id="city"></p>
+<p id="country"></p>
+<p id="province"></p>
+
+</img>
+<script>
+	
+	var background = document.getElementById("background");
+	
+	
+
+	
+	var img = document.getElementById("img");
+	
+	function submit(){
+		
+		city.innerHTML=cityBox.value;
+		country.innerHTML=countryBox.value;
+		province.innerHTML=provinceBox.value;
+		img.src=url.value;
+	}
+	
+	
+	
+
+</script>
+
+
+</html>
+
